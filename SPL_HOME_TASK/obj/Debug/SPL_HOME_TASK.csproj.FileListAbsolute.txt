@@ -1,0 +1,184 @@
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll.config
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.pdb
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Antlr3.Runtime.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.SqlServer.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Web.Infrastructure.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Newtonsoft.Json.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Owin.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Helpers.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Mvc.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Optimization.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Razor.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\WebGrease.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.SqlServer.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Helpers.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Mvc.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Optimization.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Razor.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Newtonsoft.Json.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Antlr3.Runtime.pdb
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.dll
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.pdb
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.AssemblyReference.cache
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CoreCompileInputs.cache
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CopyComplete
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.Migrations.Created_All_Tables.resources
+G:\Google drive & Works\Amaz Personal\DotNet Client\New folder\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.GenerateResource.cache
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll.config
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\SPL_HOME_TASK.pdb
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Antlr3.Runtime.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Castle.Core.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Castle.Windsor.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.SqlServer.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Web.Infrastructure.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Newtonsoft.Json.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Owin.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Helpers.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Mvc.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Optimization.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Razor.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\WebGrease.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Castle.Core.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Castle.Windsor.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\EntityFramework.SqlServer.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Helpers.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Mvc.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Optimization.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.Razor.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Newtonsoft.Json.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Antlr3.Runtime.pdb
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.AssemblyReference.cache
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.Migrations.Tables_Are_Created.resources
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.GenerateResource.cache
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CoreCompileInputs.cache
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CopyComplete
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.dll
+D:\from amaz\SPL_HOME_TASK\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.pdb
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll.config
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\SPL_HOME_TASK.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\SPL_HOME_TASK.pdb
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Antlr3.Runtime.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Castle.Core.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Castle.Windsor.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\EntityFramework.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\EntityFramework.SqlServer.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Web.Infrastructure.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Newtonsoft.Json.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Owin.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Helpers.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Mvc.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Optimization.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Razor.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\WebGrease.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Castle.Core.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Castle.Windsor.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\EntityFramework.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\EntityFramework.SqlServer.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Helpers.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Mvc.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Optimization.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.Razor.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.Deployment.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\System.Web.WebPages.Razor.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Newtonsoft.Json.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Antlr3.Runtime.pdb
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Google.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.Migrations.Tables_Are_Created.resources
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.GenerateResource.cache
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CoreCompileInputs.cache
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.csproj.CopyComplete
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.dll
+D:\DocumentManagementSystem\SPL_HOME_TASK\obj\Debug\SPL_HOME_TASK.pdb

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/fontawesome.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Swadesh Properties Ltd</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    @*<a class="nav-link" aria-current="page" href="@Url.Action("Index", "DocumentCategoryInfo")">Document Category Infos</a>
+                    <a class="nav-link" href="@Url.Action("Index", "DocumentInformation")">Document Information</a>
+                    <a class="nav-link" href="@Url.Action("DocumentInformationList", "DocumentInformation")">Document Information List</a>*@
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Menu
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="@Url.Action("Index", "DocumentCategoryInfo")">Document Category Infos</a>
+                          <a class="dropdown-item" href="@Url.Action("Index", "DocumentInformation")">Document Information</a>
+                          <a class="dropdown-item" href="@Url.Action("DocumentInformationList", "DocumentInformation")">Document Information List</a>
+                          <a class="dropdown-item" href="@Url.Action("DocumentSearchPage", "DocumentInformation")">Search Document Information</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="padding-top: 25px;">
+        @RenderBody()
+    </div>
+    <script src="~/Scripts/fontawesome/all.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

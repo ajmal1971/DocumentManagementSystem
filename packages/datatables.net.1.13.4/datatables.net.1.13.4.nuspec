@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>datatables.net</id>
+    <version>1.13.4</version>
+    <title>datatables.net</title>
+    <authors>SpryMedia Ltd</authors>
+    <owners>SpryMedia Ltd</owners>
+    <licenseUrl>https://www.nuget.org/packages/datatables.net/1.13.4/license</licenseUrl>
+    <projectUrl>http://datatables.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is jQuery DataTables</description>
+    <summary />
+    <tags>Datatables jQuery table</tags>
+    <dependencies>
+      <dependency id="jquery" version="1.7.0" />
+    </dependencies>
+  </metadata>
+</package>

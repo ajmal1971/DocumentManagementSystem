@@ -1,0 +1,366 @@
+﻿@model SPL_HOME_TASK.ViewModels.CreateOrEditDocumentInfo
+
+@{
+    var documentCategoryInfos = ViewBag.DocumentCategoryInfoList as List<SPL_HOME_TASK.Models.DocumentCategoryInfo>;
+}
+
+<div class="card bg-light">
+    <div class="card-header">
+        <h4> Document Information</h4>
+    </div>
+
+    <div class="card-body">
+        <form id="documentInformationForm" enctype="multipart/form-data">
+            <input type="hidden" id="DocumentIdentity" name="DocumentIdentity" value="@Model.DocumentIdentity">
+
+            <div class="row mb-2">
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <div class="form-group">
+                        <label for="CategoryName">Document Category</label><span style="color:red; font-size:16px;">*</span>
+                        <select id="documentCategoryDD" name="CategoryId" class="form-control" required>
+                            @if (documentCategoryInfos != null)
+                            {
+                                foreach (var item in documentCategoryInfos)
+                                {
+                                    <option value="@item.CategoryId" @(item.CategoryId == Model.CategoryId ? "selected" : "")>@item.CategoryName</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <div class="form-group">
+                        <label for="DocumentName">Document Name</label><span style="color:red; font-size:16px;">*</span>
+                        <input type="text" id="DocumentName" required name="DocumentName" value="@Model.DocumentName" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <div class="form-group">
+                        <label for="DocumentNameBangla">Document Name Bangla</label>
+                        <input type="text" id="DocumentNameBangla" name="DocumentNameBangla" value="@Model.DocumentNameBangla" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <div class="form-group">
+                        <label for="DocumentReferenceName">Document Reference Name</label><span style="color:red; font-size:16px;">*</span>
+                        <input type="text" id="DocumentReferenceName" name="DocumentReferenceName" value="@Model.DocumentReferenceName" required class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="form-group">
+                        <label for="DocumentDate">Document Date</label><span style="color:red; font-size:16px;">*</span>
+                        <input type="date" id="DocumentDate" name="DocumentDate" value="@Model.DocumentDate.ToString("yyyy-MM-dd")" required class="form-control" />
+                    </div>
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="form-group">
+                        <label for="Description">Description</label>
+                        <input type="text" id="Description" name="Description" value="@Model.Description" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            @*Meta Data Table*@
+            <div class="row">
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <table id="metaDataTable" class="table table-striped table-bordered mt-2">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Meta Name<span style="color:red; font-size:16px;">*</span></th>
+                                <th>Meta Name Bangla</th>
+                                <th>Meta Description</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.MetaDataInfos != null)
+                            {
+                                for (var index = 0; index < Model.MetaDataInfos.Count; index++)
+                                {
+                                    var sl = index + 1;
+
+                                    <tr>
+                                        <td>@sl</td>
+                                        <td hidden><input type="hidden" name="MetaDataInfos[@index].MetaIdentity" value="@Model.MetaDataInfos[index].MetaIdentity" /></td>
+                                        <td><input type="text" name="MetaDataInfos[@index].MetaName" value="@Model.MetaDataInfos[index].MetaName" required class="form-control MetaName"></td>
+                                        <td><input type="text" name="MetaDataInfos[@index].MetaNameBangla" value="@Model.MetaDataInfos[index].MetaNameBangla" class="form-control MetaNameBangla"></td>
+                                        <td><input type="text" name="MetaDataInfos[@index].Description" value="@Model.MetaDataInfos[index].Description" class="form-control Description"></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary meta-add-button">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+
+                                            <button type="button" class="btn btn-danger meta-delete-button">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            @*File Information Table*@
+            <div class="row">
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <table id="fileInfoTable" class="table table-striped table-bordered mt-2">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>File No</th>
+                                <th>File Name<span style="color:red; font-size:16px;">*</span></th>
+                                <th>File Name Bangla</th>
+                                <th>File Upload</th>
+                                <th>File Description</th>
+                                <th>Type</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.FileInfos != null)
+                            {
+                                for (var index = 0; index < Model.FileInfos.Count; index++)
+                                {
+                                    var sl = index + 1;
+
+                                    <tr>
+                                        <td>@sl</td>
+                                        <td hidden><input type="hidden" name="FileInfos[@index].FileIdentity" value="@Model.FileInfos[index].FileIdentity" /></td>
+                                        <td><input type="text" name="FileInfos[@index].FileNo" value="@Model.FileInfos[index].FileNo" class="form-control FileNo"></td>
+                                        <td><input type="text" name="FileInfos[@index].FileName" value="@Model.FileInfos[index].FileName" class="form-control FileName" required></td>
+                                        <td><input type="text" name="FileInfos[@index].FileNameBangla" value="@Model.FileInfos[index].FileNameBangla" class="form-control FileNameBangla"></td>
+                                        <td><input type="file" name="files[@index]" class="form-control FileUpload" /></td>
+                                        <td><input type="text" name="FileInfos[@index].Description" value="@Model.FileInfos[index].Description" class="form-control Description"></td>
+                                        <td><input type="text" name="FileInfos[@index].FileStatus" value="@Model.FileInfos[index].FileStatus" class="form-control FileStatus"></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary file-add-button">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs col-sm col-md col-lg col-xl">
+                    <button class="btn btn-primary" type="submit" id="mainFormSubmit" onclick="submitDocumentInfoForm()" style="width:auto;float:right">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    var j = jQuery.noConflict();
+    j(document).ready(function () {
+        j('#metaDataTable tbody tr').each(function (index, row) {
+            var lastColumn = j(row).find('td:last');
+
+            if (!j(row).is(':last-child')) {
+                lastColumn.find('button').remove();
+            }
+        });
+
+        j('#fileInfoTable tbody tr').each(function (index, row) {
+            var lastColumn = j(row).find('td:last');
+
+            if (!j(row).is(':last-child')) {
+                lastColumn.find('button').remove();
+            }
+        });
+    });
+
+    function submitDocumentInfoForm() {
+        j("#documentInformationForm").submit(function (e) {
+            e.preventDefault();
+            j("#documentInformationForm").validate({
+                rules: {
+                    CategoryId: {
+                        required: true
+                    },
+                    DocumentName: {
+                        required: true
+                    },
+                    DocumentReferenceName: {
+                        required: true
+                    },
+                    DocumentDate: {
+                        required: true
+                    },
+                },
+                messages: {
+                    CategoryName: {
+                        required: "Category Name is required"
+                    },
+                    CategoryId: {
+                        required: "Category is required"
+                    },
+                    DocumentName: {
+                        required: "Document Name is required"
+                    },
+                    DocumentReferenceName: {
+                        required: "Document Reference Name is required"
+                    },
+                    DocumentDate: {
+                        required: "Document Date is required"
+                    },
+                },
+                errorClass: "error",
+                errorElement: "span",
+                highlight: function(element) {
+                    j(element).addClass("error");
+                },
+                unhighlight: function(element) {
+                    j(element).removeClass("error");
+                }
+            });
+
+            if (j("#documentInformationForm").valid() == true) {
+                var formData = new FormData(this);
+                j.ajax({
+                    url: "@Url.Action("CreateOrEditDocumentInformation", "DocumentInformation")",
+                    type: "POST",
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (result) {
+                        if (result.Status) {
+                            alert(result.Message);
+                            window.location.href = window.location.href;
+                        } else {
+                            alert(result.Message);
+                        }
+                    },
+                    error: function () {
+                        alert("An error occurred while creating Document Category Info.");
+                    }
+                });
+            }
+        });
+    }
+
+    // Add New Row In Meta Data Table
+    j('#metaDataTable').on('click', '.meta-add-button', function () {
+        var isValid = true;
+
+        j('#metaDataTable input[required]').each(function () {
+            if (!j(this).val()) {
+                isValid = false;
+                return false;
+            }
+        });
+
+        if (isValid) {
+            var rowCount = j('#metaDataTable tbody tr').length;
+            var addButtonCell = j(this).closest('td');
+            addButtonCell.empty();
+
+            var newRow =
+                '<tr>' +
+                    '<td>' + (rowCount + 1) + '</td>' +
+                    '<td><input type="text" name=" ' + 'MetaDataInfos[' + rowCount + '].MetaName' + '" required class="form-control MetaName"></td>' +
+                    '<td><input type="text" name=" ' + 'MetaDataInfos[' + rowCount + '].MetaNameBangla' + '" class="form-control MetaNameBangla"></td>' +
+                    '<td><input type="text" name=" ' + 'MetaDataInfos[' + rowCount + '].Description' + '" class="form-control Description"></td>' +
+                    '<td>' +
+                        '<button type="button" class="btn btn-primary meta-add-button">' +
+                            '<i class="fas fa-plus"></i>' +
+                        '</button>' +
+                    '</td>' +
+                '</tr>';
+
+            j('#metaDataTable tbody').append(newRow);
+            updateMetaInputNames();
+            j(newRow).find('.MetaName, .MetaNameBangla, .Description').val('');
+
+        } else {
+            alert('Please fill all the required fields in the previous row.');
+        }
+    });
+
+    updateMetaInputNames();
+
+    function updateMetaInputNames() {
+        j('#metaDataTable tbody tr').each(function (index) {
+            j(this).find('.MetaName').attr('name', 'MetaDataInfos[' + index + '].MetaName');
+            j(this).find('.MetaNameBangla').attr('name', 'MetaDataInfos[' + index + '].MetaNameBangla');
+            j(this).find('.Description').attr('name', 'MetaDataInfos[' + index + '].Description');
+        });
+    }
+
+    // Add New Row In File Info Table
+    j('#fileInfoTable').on('click', '.file-add-button', function () {
+        var isValid = true;
+
+        j('#fileInfoTable input[required]').each(function () {
+            if (!j(this).val()) {
+                isValid = false;
+                return false;
+            }
+        });
+
+        if (isValid) {
+            var rowCount = j('#fileInfoTable tbody tr').length;
+            var addButtonCell = j(this).closest('td');
+            addButtonCell.empty();
+
+            var newRow =
+                j('<tr>' +
+                    '<td>' + (rowCount + 1) + '</td>' +
+                    '<td><input type="text" name=" ' + 'FileInfos[' + rowCount + '].FileNo' + '" class="form-control FileNo"></td>' +
+                    '<td><input type="text" name=" ' + 'FileInfos[' + rowCount + '].FileName' + '" class="form-control FileName"></td>' +
+                    '<td><input type="text" name=" ' + 'FileInfos[' + rowCount + '].FileNameBangla' + '" class="form-control FileNameBangla"></td>' +
+                    '<td><input type="file" name=" ' + 'files[' + rowCount + ']' + '" class="form-control FileUpload"></td>' +
+                    '<td><input type="text" name=" ' + 'FileInfos[' + rowCount + '].Description' + '" class="form-control Description"></td>' +
+                    '<td><input type="text" name=" ' + 'FileInfos[' + rowCount + '].FileStatus' + '" class="form-control FileStatus"></td>' +
+                    '<td>' +
+                        '<button type="button" class="btn btn-primary file-add-button">' +
+                            '<i class="fas fa-plus"></i>' +
+                        '</button>' +
+                    '</td>' +
+                 '</tr>');
+
+            j('#fileInfoTable tbody').append(newRow);
+            updateFileInputNames();
+            j(newRow).find('.FileNo, .FileName, .FileNameBangla, .FileUpload, .Description, .FileStatus').val('');
+        } else {
+            alert('Please fill all the required fields in the previous row.');
+        }
+
+        updateFileInputNames();
+
+        function updateFileInputNames() {
+            j('#fileInfoTable tbody tr').each(function (index) {
+                j(this).find('.FileNo').attr('name', 'FileInfos[' + index + '].FileNo');
+                j(this).find('.FileName').attr('name', 'FileInfos[' + index + '].FileName');
+                j(this).find('.FileNameBangla').attr('name', 'FileInfos[' + index + '].FileNameBangla');
+                j(this).find('.FileUpload').attr('name', 'files[' + index + ']');
+                j(this).find('.Description').attr('name', 'FileInfos[' + index + '].Description');
+                j(this).find('.FileStatus').attr('name', 'FileInfos[' + index + '].FileStatus');
+            });
+        }
+    });
+
+    j('.meta-delete-button').click(function () {
+        var button = $(this);
+        var row = button.closest('tr');
+        row.remove();
+    });
+
+
+</script>

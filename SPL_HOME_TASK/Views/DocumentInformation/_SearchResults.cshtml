@@ -1,0 +1,100 @@
+﻿@model List<SPL_HOME_TASK.ViewModels.SearchResultViewModel>
+
+<div class="card bg-light">
+    <div class="card-header">
+        <h5>Search Result</h5>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered table-striped" id="searchResultDataTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Category Name</th>
+                    <th>Document Name</th>
+                    <th>Document Date</th>
+                    <th>Document Reference Name</th>
+                    <th>Document Name Bangla</th>
+                    <th>Description</th>
+                    <th>File Location</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count > 0)
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr data-doc-id="@item.DocumentIdentity">
+                            <td></td>
+                            <td>@item.CategoryName</td>
+                            <td>@item.DocumentName</td>
+                            <td>@item.DocumentDate</td>
+                            <td>@item.DocumentReferenceName</td>
+                            <td>@item.DocumentNameBangla</td>
+                            <td>@item.Description</td>
+                            <td>@item.FileLocation</td>
+                            <td></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    $('#searchResultDataTable tbody').on('click', 'tr', function () {
+        //Get Doc Id From Clicke Row
+        var docId = $(this).data('doc-id');
+
+        // Get File Infos By Doc Id
+        getFileInfos(docId, this);
+    });
+
+    function getFileInfos(documentId, tableRow) {
+        j.ajax({
+            url: '@Url.Action("GetFileInfosByDocumentId", "DocumentInformation")',
+            type: "GET",
+            data: { documentId: documentId},
+            success: function (result) {
+                // Generate Table
+                generateFileInfoDetailTable(result, tableRow);
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+            }
+        });
+    }
+
+    function generateFileInfoDetailTable(fileInfos, tableRow) {
+        // Check Table Already Exists For Clicked Row
+        if ($('#fileInfosTable').length) {
+            $('#fileInfosTable').remove();
+            $('#fileInfosRow').remove();
+        }
+
+        // Init Table
+        var detailsTable = $('<table class="table table-bordered" id="fileInfosTable"></table>');
+        var headerRow = $('<tr></tr>');
+        headerRow.append('<th>File No</th>');
+        headerRow.append('<th>File Name</th>');
+        headerRow.append('<th>File Name Bangla</th>');
+        headerRow.append('<th>File Description</th>');
+        detailsTable.append(headerRow);
+
+        // Populate File Infos In Table
+        $.each(fileInfos, function (index, detail) {
+            console.log(detail)
+            var detailRow = $('<tr></tr>');
+            detailRow.append('<td>' + detail.FileNo + '</td>');
+            detailRow.append('<td>' + detail.FileName + '</td>');
+            detailRow.append('<td>' + detail.FileNameBangla + '</td>');
+            detailRow.append('<td>' + detail.Description + '</td>');
+            detailsTable.append(detailRow);
+        });
+
+        // Add Table To Clicked Row
+        $(tableRow).after($('<tr><td id="fileInfosRow" colspan="9"></td></tr>').find('td').append(detailsTable));
+    }
+</script>
